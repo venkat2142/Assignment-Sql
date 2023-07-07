@@ -1,0 +1,10 @@
+CREATE TABLE todo_list (
+  task_id int PRIMARY KEY, 
+  task_name varchar(255), 
+  description varchar(255),
+  is_completed varchar(255)
+);
+INSERT INTO todo_list VALUES (1,"Cleaning","Washing the utensils","YES");
+INSERT INTO todo_list VALUES (2,"Sweeping","Sweeping the house","YES");
+INSERT INTO todo_list VALUES (3, "Cooking","Cooking food for family members","YES");
+INSERT INTO todo_list VALUES (4, "Studying","Studying about the topics covered in the school","YES");
